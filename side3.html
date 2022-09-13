@@ -8,16 +8,10 @@
 </head>
 <body>
     <script>
-
-        let input = prompt("Tal?");
-
-        let stars = '*';
-
-        repeat();
-
-        function repeat() {
-            for(let i = 1; i <= Number(input); i++) {
-                console.log(stars.repeat([i]));
+        repeat(Number(prompt('tal?')));
+        function repeat(input) {
+            for(let i = 1; i <= input; i++) {
+                console.log('*'.repeat([i]));
             }
         }
     </script>
