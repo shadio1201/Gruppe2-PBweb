@@ -3,6 +3,9 @@ for(let i = 0; i < 4; i++) {
 }
 // komentar test J // 
 
+window.addEventListener("mousemove", ()=> {
+    console.log('wow!');
+})
 // Dalena 
 for (let i = 0; i < 4; i++) {
   console.log("Hallo world!");
