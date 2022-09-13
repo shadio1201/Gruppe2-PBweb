@@ -8,17 +8,14 @@
 </head>
 <body>
     <script>
-        let input = prompt("skriv et tal");
-        beregn();
-
-        function beregn() {
+        beregn(prompt("skriv et tal"));
+        function beregn(input) {
             let array = Array.from(input);
             let sum = array.reduce((prev, curr) => {
                 return Number(prev) + Number(curr);
             })
             console.log(sum);
         }
-
     </script>
 </body>
 </html>
